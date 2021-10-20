@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - "0.10.48"
+cache:
+  directories:
+  - node_modules
+git:
+  depth: false
+script: node ./tests/index.js
